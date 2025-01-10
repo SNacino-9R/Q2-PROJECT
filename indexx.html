@@ -1,0 +1,222 @@
+<!<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Recipes</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<style>
+  
+  body 
+    {background-image: url(backg.jpg);
+        background-size: cover;
+
+        .container {
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px; 
+    width: 80%; 
+    max-width: 1000px;
+
+
+
+.box {
+    background-color: #72A0C1; 
+    color: #F0F8FF; 
+    padding: 20px;
+    font-size: 16px;
+    width: 30%; 
+    border-radius: 5px; 
+    text-align: center; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; 
+        gap: 10px; 
+    }
+    .box {
+        width: 100%; 
+    }
+}
+
+
+</style>
+<body>
+  <nav class="navbar navbar-expand-sm bg-secondary navbar-dark" >
+     <div class="container-fluid">
+            <div class="collapse navbar-collapse">
+
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"> <a class="nav-link" href="index.html"> Home </a> </li>                    
+                    <li class="nav-item"> <a class="nav-link" href="indexx.html"> Recipes </a> </li>
+                </ul>
+
+                <form class="d-flex">
+                    <input class="form-control" type="text" placeholder="search...">
+                    <button class="btn btn-success" type="button"> Search </button>
+                </form>
+
+            </div>
+        </div>
+    </nav>
+<div>
+   <div class="container">
+        <div class="box">lunch</div>
+        <div class="box">meryenda</div>
+        <div class="box">dinner</div>
+    </div>
+
+
+<div class="container mt-3">
+  <div class="card" style="width:400px">
+    <img class="card-img-top" src="nilaga.jpg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">Nilagang Baboy</h4>
+      <p class="card-text">Nilagang Baboy is a Filipino pork soup made by simmering pork (typically ribs or shoulder) with a variety of vegetables like corn, potatoes, and leafy greens in a clear, savory broth, offering a light yet flavorful dish.</p>
+      
+  <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#myModal">
+    see ingredients
+  </button>
+</div>
+
+<!-- modal code -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title"> Nilagang Baboy</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- modal body -->
+      <div class="modal-body">
+        2 lbs pork ribs
+       8-10 cups of water
+       1 pork bouillon cube
+       1 medium size onion, quartered
+       1 tbsp whole peppercorns
+       2 potatoes, quartered
+       1/2 head cabbage, sliced
+      1 small bundle bokchoy / pechay
+      1 tablespoon fish sauce (patis)
+
+
+        </div>
+
+      <!-- modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">close</button>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="container mt-3">
+  <div class="card" style="width:400px">
+    <img class="card-img-top" src="adobo.jpg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">Adobo</h4>
+      <p class="card-text">Adobo is a quintessential Filipino dish made by marinating meat (usually chicken or pork) in a mixture of soy sauce, vinegar, garlic, bay leaves, and peppercorns, then simmering it until tender, creating a rich, tangy, and savory flavor.
+
+
+
+</p>
+      
+  <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#myModal">
+    see ingredients
+  </button>
+</div>
+
+<!-- modal code -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title"> Adobo</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- modal body -->
+      <div class="modal-body">
+       3/4 cup soy sauce
+       1/2 cup sugar
+       6 cloves garlic, peeled and smashed
+       2 bay leaves
+       1/2 teaspoon black peppercorns
+       3 pounds boneless, skinless chicken thighs (about 8 pieces)
+       1/4 cup canola oil
+       1 large yellow onion, finely diced
+       1/2 cup chicken broth
+       1/2 cup cane vinegar 
+       Steamed rice, for serving
+
+        </div>
+
+      <!-- modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">close</button>
+      </div>
+    </div>
+    </div>
+  </div>
+  <br />
+
+<div class="container mt-3">
+  <div class="card" style="width:400px">
+    <img class="card-img-top" src="sinigang.jpg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">Sinigang</h4>
+      <p class="card-text">Sinigang is a popular Filipino sour soup made with a variety of meats (such as pork, shrimp, or fish) and vegetables, simmered in a tangy broth flavored with tamarind, giving it a refreshing and savory taste.
+
+
+
+</p>
+      
+  <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#myModal">
+    see ingredients
+  </button>
+</div>
+
+<!-- modal code -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title"> Sinigang</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- modal body -->
+      <div class="modal-body">
+        6 cups  water
+        1 kg  MONTEREY PORK BELLY, sinigang cut
+        6 pc  tomatoes, quartered
+        1 (44 g)  sachet  sinigang mix
+        3 pc  gabi, peeled and cut into cubes
+        1 bundle  sitaw, cut into 1 inch pieces
+        1  pc  labanos, sliced
+        4 pc  okra iodized fine salt or patis to taste
+        1 bundle  kangkong, use tender leaves and stalks only (cut stalks into 1" pieces)
+
+
+        </div>
+
+      <!-- modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">close</button>
+      </div>
+ <br />
+
+
+
+</body>
+</html>
